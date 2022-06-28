@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="axi_jjw_5058" />
+    <profile name="sbt 2" modules="axi_jjw">
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-Dhttp.proxyHost=127.0.0.1" />
+        <parameter value="-Dhttp.proxyPort=10809" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/spinalhdl/spinalhdl-idsl-plugin_2.11/1.5.0/spinalhdl-idsl-plugin_2.11-1.5.0.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
